@@ -10,12 +10,14 @@ import Sitemap from 'parts/Sitemap'
 export default function HomePage() {
     return (
         <>
-            <Header />
-            <Breadcrumb list={[
-                { url: "/", name: "Home" },
-                { url: "/categories/90909", name: "Office Room" },
-                { url: "/categories/90909.products/69690", name: "Details" },
-            ]} />
+            <Header theme="black" />
+            <Breadcrumb 
+            list={[
+                {url:"/",name:"Home"},
+                {url:"/categories/91231",name:"Office Room"},
+                {url:"/categories/91231.products/4888",name:"Details"}
+            ]}
+            />
             <Clients />
             <Sitemap />
             <Footer />
