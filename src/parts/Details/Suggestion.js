@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import 'helpers/format/currency'
 
 export default function Suggestion({ data }) {
     // console.log(data)
@@ -9,8 +10,7 @@ export default function Suggestion({ data }) {
             <div className="container mx-auto">
                 <div className="flex flex-start mb-4">
                     <h3 className="text-2xl capitalize font-semibold">
-                        Complete your room <br className="" />with what we designed
-          </h3>
+                        Complete your room <br className="" />with what we designed</h3>
                 </div>
                 <div className="flex overflow-x-auto mb-4 -mx-3">
                     {data?.map(item => {
@@ -24,7 +24,7 @@ export default function Suggestion({ data }) {
                                     />
                                 </div>
                                 <h5 className="text-lg font-semibold mt-4">{item.title}</h5>
-                                <span className="">IDR {item.price}</span>
+                                <span className="">{item.price.currency()}</span>
                                 <Link to={`/categories/${item.idc}/products/${item.id}`} className="stretched-link">
                                 </Link>
                             </div>

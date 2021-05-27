@@ -5,10 +5,12 @@ import Breadcrumb from 'components/Breadcrumb'
 
 import Sitemap from 'parts/Sitemap'
 import Footer from 'parts/Footer'
+import Document from 'parts/HomePage/Document'
 
 export default function Congratulation() {
+
     return (
-        <>
+        <Document>
             <Header theme="black" />
             <Breadcrumb
                 list={[
@@ -41,6 +43,6 @@ export default function Congratulation() {
 
             <Sitemap />
             <Footer />
-        </>
+        </Document>
     )
 }

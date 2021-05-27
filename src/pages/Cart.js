@@ -8,10 +8,13 @@ import ShippingDetails from 'parts/Cart/ShippingDetails'
 
 import Sitemap from 'parts/Sitemap'
 import Footer from 'parts/Footer'
+import Document from 'parts/HomePage/Document'
 
-export default function HomePage() {
+export default function Cart() {
+
+
     return (
-        <>
+        <Document>
             <Header theme="black" />
             <Breadcrumb
                 list={[
@@ -30,7 +33,7 @@ export default function HomePage() {
 
             <Sitemap />
             <Footer />
-        </>
+        </Document>
     )
 }
 
