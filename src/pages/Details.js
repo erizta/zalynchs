@@ -66,7 +66,7 @@ function LoadingSuggestion() {
         <div className="container mx-auto">
             <div className="flex flex-start mb-4">
                 <h3 className="text-2xl capitalize font-semibold">
-                    Complete your room <br className="" />with what we designed</h3>
+                    Complete your closet <br className="" />with what we designed</h3>
             </div>
             <div className="flex overflow-x-auto mb-4 -mx-3">
                 {Array(4).fill().map((_, index) => {
@@ -101,7 +101,7 @@ export default function HomePage() {
             <Breadcrumb
                 list={[
                     { url: "/", name: "Home" },
-                    { url: "/categories/91231", name: "Office Room" },
+                    { url: "/categories/91231", name: "Closets" },
                     { url: "/categories/91231.products/4888", name: "Details" }
                 ]}
             />

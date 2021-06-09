@@ -7,18 +7,17 @@ export default function Header() {
                 className="w-full absolute z-20 inset-0 md:relative md:w-1/2 text-center flex flex-col justify-center hero-caption"
             >
                 <h1 className="text-3xl md:text-5xl leading-tight font-semibold">
-                    The Room <br className="" />You've Dreaming
+                    BE THE FIRST TO GET <br className="" />OUR NEW COLLECTION
           </h1>
                 <h2 className="px-8 text-base md:px-0 md:text-lg my-6 tracking-wide">
-                    Kami menyediakan furniture berkelas yang
-            <br className="hidden lg:block" />membuat ruangan terasa homey
+                    We provide local and international brands
+            <br className="hidden lg:block" />for consumers
           </h2>
                 <div>
                     <a
                         href="#browse-the-room"
                         className="bg-pink-400 text-black hover:bg-black hover:text-pink-400 rounded-full px-8 py-3 mt-4 inline-block flex-none transition duration-200"
-                    >Explore Now</a
-                    >
+                    >Explore Now</a>
                 </div>
             </div>
             <div className="w-full inset-0 md:relative md:w-1/2">
@@ -32,7 +31,7 @@ export default function Header() {
                   <iframe
                     width="100%"
                     height="100%"
-                    src="https://www.youtube.com/embed/3h0_v1cdUIA"
+                    src="https://www.youtube.com/embed/cpq1NTSsyDg"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
@@ -42,7 +41,7 @@ export default function Header() {
                         ></button>
                     </div>
                     <img
-                        src="images/content/image-section-1.png"
+                        src="images/content/image-hero.jpg"
                         alt="hero 1"
                         className="absolute inset-0 md:relative w-full h-full object-cover object-center"
                     />

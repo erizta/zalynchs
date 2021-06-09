@@ -10,7 +10,7 @@ export default function Suggestion({ data }) {
             <div className="container mx-auto">
                 <div className="flex flex-start mb-4">
                     <h3 className="text-2xl capitalize font-semibold">
-                        Complete your room <br className="" />with what we designed</h3>
+                        Complete your closet <br className="" />with what we designed</h3>
                 </div>
                 <div className="flex overflow-x-auto mb-4 -mx-3">
                     {data?.map(item => {
