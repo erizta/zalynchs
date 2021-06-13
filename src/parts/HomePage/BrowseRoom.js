@@ -85,7 +85,7 @@ export default function BrowseRoom() {
             <div className="container mx-auto">
                 <div className="flex flex-start mb-4">
                     <h3 className="text-2xl capitalize font-semibold">
-                        browse the clothes <br className="" />that we designed for you
+                        browse the room <br className="" />that we designed for you
                     </h3>
                 </div>
 

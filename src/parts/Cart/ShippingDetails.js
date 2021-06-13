@@ -1,4 +1,4 @@
-import React from "react"
+import React,{useEffect} from "react"
 
 import { useHistory } from "react-router-dom"
 
@@ -31,7 +31,7 @@ export default function ShippingDetails() {
             return payload[key] !== ""
         }).length === Object.keys(payload).length
 
-    React.useEffect(() => {
+    useEffect(() => {
         run(fetch({ url: `/api/checkout/meta` }))
     }, [run])
 
@@ -119,8 +119,8 @@ export default function ShippingDetails() {
                             {isLoading
                                 ? Array(2)
                                     .fill()
-                                    .map((_, item) => (
-                                        <div key={item} className="px-2 h-24 mb-4 w-6/12">
+                                    .map((_, index) => (
+                                        <div key={index} className="px-2 h-24 mb-4 w-6/12">
                                             <div className="bg-gray-300 w-full h-full animate-pulse rounded-lg mx-2"></div>
                                         </div>
                                     ))
@@ -153,9 +153,7 @@ export default function ShippingDetails() {
                         <label htmlFor="complete-name" className="text-sm mb-2">Choose Payment</label>
                         <div className="flex -mx-2 flex-wrap">
                             {isLoading
-                                ? Array(2)
-                                    .fill()
-                                    .map((_, index) => (
+                                ? Array(2).fill().map((_, index) => (
                                         <div key={index} className="px-2 h-24 mb-4 w-6/12">
                                             <div className="bg-gray-300 w-full h-full animate-pulse rounded-lg mx-2"></div>
                                         </div>
