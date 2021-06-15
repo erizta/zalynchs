@@ -39,7 +39,7 @@ export default function Sitemap() {
                 <div className="flex justify-center mb-8">
                     <img
                         src="/images/content/logo.png"
-                        alt="Zalynch | Fulfill your house with beautiful furniture"
+                        alt="Zalynch | Fulfill your closet with beautiful clothes"
                     />
                 </div>
                 <aside className="container mx-auto">

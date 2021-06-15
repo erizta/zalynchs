@@ -30,7 +30,7 @@ export default function Header({ theme, position }) {
                         <Link to="/">
                             <img
                                 src="/images/content/logo.png"
-                                alt="Zalynch | Fulfill your house with beautiful furniture"
+                                alt="Zalynch | Fulfill your closet with beautiful clothes"
                             />
                         </Link>
                     </div>
